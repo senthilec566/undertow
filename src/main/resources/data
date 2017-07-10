@@ -1,0 +1,76 @@
+{
+	"type": "datastream",
+	"format": "json",
+	"version": "1.0",
+	"id": "1131eb8-57b73f1f-8d2e9",
+	"start": "1496298066.419",
+	"cp": "66559",
+	"message": {
+		"proto": "https",
+		"protoVer": "1.1",
+		"status": "200",
+		"cliIP": "192.223.242.21",
+		"reqPort": "443",
+		"reqHost": "www.fidelity.com",
+		"reqMethod": "GET",
+		"reqPath": "%2fnav%2fnavbar.shtml",
+		"sslVer": "TLSv1",
+		"respCT": "text/html",
+		"bytes": "16346",
+		"UA": "Jakarta%20Commons-HttpClient%2f3.1",
+		"fwdHost": "www.retail.fidelity.com"
+	},
+	"reqHdr": {
+		"cookie": "Aka-Debug-Mdttrace%3dexpires%3d1490300063%7emd5%3d3fad8b2b61b93c8762540ebbef2f35c1"
+	},
+	"respHdr": {
+		"conn": "keep-alive",
+		"date": "Fri,%2019%20Aug%202016%2017:17:19%20GMT",
+		"p3p": "CP=\"UNI%20DEM%20GOV%20FIN%20STA%20COM%20NAV%20PRE%20INT%20ONL%20CUR%20ADM%20DEV%20PSA%20PSD%20CUSi%20IVDi%20IVAi%20TELi%20CONi%20TAI%20OUR%20OTRi\"",
+		"server": "FWS/7.0",
+		"setCookie": "MC=Uwqq5Zt^Zk4X015gC97nUoKZzUYSAle3Px8KAiiHIABhSQAVqjMGBAAAAQAGBVe3Px8AP03%20path=/%20domain=.fidelity.com%20expires=Sat,%2019-Aug-2017%2017:17:19%20GMT"
+	},
+	"waf": {
+		"ver": "2.0",
+		"policy": "1980_5272",
+		"ruleSet": "KRS%201.0",
+		"mode": "scr",
+		"rsr": "0",
+		"dor": "0",
+		"oft": "1",
+		"riskGroups": "",
+		"riskTuples": "",
+		"riskScores": "",
+		"pAction": "",
+		"pRate": "",
+		"warnRules": "3990001%3b990012",
+		"warnSlrs": "REQUEST_HEADERS%3aUser-Agent%3bREQUEST_HEADERS%3aUser-Agent",
+		"warnData": "amFrYXJ0YV9CRjAyQjVEMEIzNDE5QkI0MTU4RTYzMDI5NzgxNjVDMQ%3d%3d%3bSmFrYXJ0YQ%3d%3d",
+		"warnTags": "AKAMAI%2fBOT%2fUSER-AGENT%3bOWASP_CRS%2fAUTOMATION%2fMALICIOUS",
+		"denyRules": "",
+		"denyData": ""
+	},
+	"netPerf": {
+		"downloadTime": "13",
+		"lastMileRTT": "2",
+		"netOriginLatency": "13",
+		"cacheStatus": "0",
+		"firstByte": "1",
+		"lastByte": "1",
+		"asnum": "7922",
+		"edgeIP": "72.247.150.200"
+	},
+	"geo": {
+		"country": "US",
+		"region": "MA",
+		"city": "CAMBRIDGE",
+		"lat": "42.3802",
+		"long": "-71.1347"
+	},
+	"network": {
+		"edgeIP": "72.247.150.200",
+		"asnum": "7922",
+		"network": "comcast",
+		"networkType": ""
+	}
+}
